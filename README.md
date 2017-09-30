@@ -8,9 +8,9 @@ This is a program I wrote originally for a CS 440 (Intro to AI) assignment, but 
 It is recommended that the file be downloaded as a zip, and opened in Eclipse. If you wish to run everything from the command line, including all the Java files, please see the link here: https://stackoverflow.com/questions/6153057/how-to-run-a-java-project-in-command-line. 
 
 
-#### Step 1. Running the Algorithms
+### Step 1. Running the Algorithms
 
-### Step 1a. AStar
+#### Step 1a. AStar
 
 Locate the AStar folder within the main project.
 
@@ -21,7 +21,7 @@ Initialize 50 graphs randomly populates textfiles based on a set of probabilitie
 Running the algorithm will pass through the files based upon a specific heuristic mode that will be selected using user input. The sequential and incremental algorithms work in the same way, requiring additional user input.
 
 
-### Step 1b. Filtering & Viterbi
+#### Step 1b. Filtering & Viterbi
 
 Locate the Filtering & Viterbi algorithms within the Viterbi folder.
 
@@ -30,7 +30,7 @@ To run both Filtering & Viterbi algorithms on the gridworld, you must already ha
 Run Main.java within the Viterbi folder. You will be asked for an input: 0 calculates filtering while 1 will calculate Viterbi and output the shortest likely path. The algorithm will be run on all the files specified.
 
 
-#### Step 2. Visualizing using Python
+### Step 2. Visualizing using Python
 
 Locate the dist folder, and run in the command line:
 
